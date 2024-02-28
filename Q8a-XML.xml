@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="Q10a-XML.css" type="text/css"?>
+<!DOCTYPE foot SYSTEM "Q7-DTD.dtd">
+<foot>
+ <glossaire auteur="Binôme Daniela David">
+  <mots def="MCD"> MCD (modèle Conceptuel données) </mots>
+  <mots def="MOCODO"> MOCODO (Modélisation Conceptuelle de Données) </mots>
+ </glossaire>
+ <glossaire>
+  <mots def="foot">Notre base des données: Football</mots>
+  <mots def="xml">En xml </mots>
+ </glossaire>
+ <club auteur="FC">
+  <nom_Club def="Mar"> Club : Marseille</nom_Club>
+  <date_Creation def="année de création"> Année de fondation : 1987</date_Creation>
+  <bilanCO2 def="empreinte carbon"> empreinte Carbone : 120000 tonnes </bilanCO2>
+  <nom_Terrain def="stade"> Stade : Velodrome </nom_Terrain>
+  <nom_Pays def="fr"> Pays : France </nom_Pays>
+ </club>
+ <club auteur="FC">
+  <nom_Club def="Drt"> Club : Dortmund</nom_Club>
+  <date_Creation def="année de création"> Année de fondation : 1909</date_Creation>
+  <bilanCO2 def="empreinte carbon">empreinte Carbone : 200000 tonnes </bilanCO2>
+  <nom_Terrain def="stade"> Stade : Signal Iduna Park</nom_Terrain>
+  <nom_Pays def="All">  Pays : Allemagne </nom_Pays>
+ </club>	
+</foot>

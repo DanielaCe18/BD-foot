@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+<head>
+   <title>Ma page XHTML</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <link rel="stylesheet" type="text/css" href="Q10b-XML.css" />
+</head>
+<body>
+<main>
+   <section>
+      <h2>Validation des nos fichiers</h2>
+      <p>Voici des liens de validation :</p>
+      <ul>
+         <li><a href="Q8a-XML.xml">Notre fichier Q8a-XML.xml</a></li>
+         <li><a href="Q8b-XML.xml">Notre fichier Q8b-XML.xml</a></li>
+         <li><a href="Q7-DTD.dtd">Notre fichier Q7-DTD.dtd</a></li>
+         <li><a href="https://validator.w3.org/">Validation XHTML</a></li>
+         <li><a href="https://jigsaw.w3.org/css-validator/">Validation CSS</a></li>
+         <li><a href="c3.php"> Notre page C3. PHP, XML vers XHTML </a></li>
+      </ul>
+   </section>
+   <section>
+    <h2>Les requêtes en XPath</h2>
+    <p>Voici nos requêtes :</p>
+    <ol>
+        <li> pour les documents XML respectant la DTD en 7 : fournir les contenus des éléments glossaire :
+             <p>//descendant::glossaire/child::mots/child::text()</p>
+            <img src="C:\Users\CRS\Downloads\reqA.png" alt="requête a">
+            <p>Vous pouvez la tester ici :<a href="http://xpather.com/qv5beJRg">Test requête A en Xpath</a></p>
+        </li>
+        <li> pour les documents XML respectant la DTD en 7 : fournir le premier élément glossaire :
+            <p>/descendant::glossaire[1]</p>
+           <img src="C:\Users\CRS\Downloads\reqB.png" alt="requête b">
+           <p>Vous pouvez la tester ici :<a href="http://xpather.com/LGYwMZbA">Test requête B en Xpath</a></p>
+       </li>
+        <li>pour les documents XML respectant la DTD en 7 : fournir les éléments <glossaire> n’ayant pas d’attribut
+            auteur: <p>/foot/glossaire[not(@auteur)]</p>
+            <img src="C:\Users\CRS\Downloads\reqC.png" alt="requête c">
+            <p>Vous pouvez la tester ici :<a href="http://xpather.com/GnbEqmP4">Test requête C en Xpath</a></p>
+        </li>
+        <li>pour vos documents XHTML : fournir les valeurs des attributs href :
+            <p>//a/@href</p>
+            <img src="C:\Users\CRS\Downloads\reqD.png" alt="requête d">
+            <p>Vous pouvez la tester ici :<a href="http://xpather.com/nTtoXNxb">Test requête D en Xpath</a></p>
+        </li>
+        <li>pour vos documents XHTML : compter le nombre d'images dans un document XHTML:
+            <p>count(//img)</p>
+            <img src="C:\Users\CRS\Downloads\reqE.png" alt="requête e">
+            <p>Vous pouvez la tester ici :<a href="http://xpather.com/cobvSL9n">Test requête E en Xpath</a></p>
+        </li>
+      </ol>
+ </section>
+</main>
+<footer>
+   <p>&copy; 2023 - Page de football. All rights reserved</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="Q10a-XML.css" type="text/css"?>
+<!DOCTYPE foot SYSTEM "Q7-DTD.dtd">
+<!-- Notre fichier XML foot -->
+<foot>
+ <glossaire auteur="Binôme Daniela David">
+  <mots def="MCD"> MCD (modèle Conceptuel données) </mots>
+  <mots def="MOCODO"> MOCODO (Modélisation Conceptuelle de Données) </mots>
+ </glossaire>
+ <club auteur="FC">
+  <nom_Club def="BAY"> Bayern Munich</nom_Club>
+  <date_Creation def="année de création">1900</date_Creation>
+  <bilanCO2 def="empreinte carbon">405000 tonnes </bilanCO2>
+  <nom_Terrain def="stade">Allianz Arena </nom_Terrain>
+  <nom_Pays def="All"> Allemagne </nom_Pays>
+ </club>	
+ <club auteur="FC">
+  <nom_Club def="BAR"> Barcelone</nom_Club>
+  <date_Creation def="année de création">1899</date_Creation>
+  <bilanCO2 def="empreinte carbon">450000 tonnes </bilanCO2>
+  <nom_Terrain def="stade"> Camp Nou</nom_Terrain>
+  <nom_Pays def="Esp"> Espagne</nom_Pays>
+ </club>
+ <club auteur="FC">
+  <nom_Club def="MUN"> Manchester United</nom_Club>
+  <date_Creation def="année de création">1878</date_Creation>
+  <bilanCO2 def="empreinte carbon">400000 tonnes </bilanCO2>
+  <nom_Terrain def="stade"> Old Trafford </nom_Terrain>
+  <nom_Pays def="En"> Angleterre</nom_Pays>
+ </club>
+ <club auteur="FC">
+  <nom_Club def="PSG"> Paris Saint Germain</nom_Club>
+  <date_Creation def="année de création">1970</date_Creation>
+  <bilanCO2 def="empreinte carbon">438000 tonnes </bilanCO2>
+  <nom_Terrain def="stade"> Parc des Princes </nom_Terrain>
+  <nom_Pays def="fr">France </nom_Pays>
+ </club>
+ <club auteur="FC">
+  <nom_Club def="RMD"> Real Madrid</nom_Club>
+  <date_Creation def="année de création">1902</date_Creation>
+  <bilanCO2 def="empreinte carbon">400000 tonnes </bilanCO2>
+  <nom_Terrain def="stade"> Santiogo Bernabeu </nom_Terrain>
+  <nom_Pays def="Esp"> Espagne</nom_Pays>
+ </club>
+</foot>

@@ -1,0 +1,51 @@
+foot {
+	background-color: bisque;
+}
+
+mots {
+	display: block;
+	margin-left: 5%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+mots[def="MCD"] {
+	font-family: times;
+	font-weight: bold;
+	color: navy;
+
+}
+
+mots[def="MOCODO"] {
+	font-family: times;
+	font-weight: bold;
+	color: rgb(12, 103, 74);
+
+}
+
+club[auteur] {
+	display: block;
+	margin-left: 1%;
+	margin-bottom: 1%;
+}
+
+club nom_Club {
+	color: black;
+}
+
+club date_Creation {
+	color: brown;
+}
+
+club bilanCO2 {
+	color: black;
+}
+
+club nom_Terrain {
+	color: black;
+
+}
+
+club nom_Pays {
+	color: brown;
+}

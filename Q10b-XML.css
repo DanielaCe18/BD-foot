@@ -1,0 +1,186 @@
+
+body,
+h1,
+h2,
+p,
+table {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #f2f2f2;
+    line-height: 1.6;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 28px;
+    color:#333;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #666;
+    transition: color 0.3s;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    color: #666;
+}
+
+th {
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e6e6e6;
+}
+
+img {
+  max-width: 700px; 
+  display: block; 
+  margin: 0 auto; 
+  margin-top: 25px;
+  margin-bottom: 25px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+body header img {
+    max-width: 60px; 
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+
+}
+table tr td img{
+    max-width: 60px; 
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+ img[src="https://static01.nyt.com/images/2022/11/20/sports/world-cup-2022-groups-teams/world-cup-2022-groups-teams-articleLarge.png?quality=75&auto=webp&disable=upscale"] {
+    max-width: 400px; 
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+ }
+ img[src="https://cdn.resfu.com/media/img_news/le-tirage-au-sort-complet-de-la-phase-de-poules--besoccer.png?size=1000x&lossy=1&ext=jpeg"] {
+    max-width: 400px; 
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+ }
+
+ form {
+    max-width: 300px;  
+    margin-right: auto;
+  }
+  
+  
+  label {
+    display: block;
+    margin-bottom: 5px; 
+  }
+  
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 10px; 
+  }
+  
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none; 
+    cursor: pointer; 
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3; 
+  }
+
+
